@@ -1,0 +1,173 @@
+<htm>
+    <head>
+        <style>
+        
+            div#container{
+                 width: 900px;
+                 height: 1000px;
+                 background-color: lightgreen;
+                 margin-left: auto;
+                 margin-right: auto;
+                 font-family: sans-serif;
+            }
+            div#header {
+                width: 900px;
+                height: 80px;
+                background-color: #6d41bf;
+            }
+
+            h1#logo{
+                float: left;
+                margin-left: 50px;
+                margin-top: 20px;
+            }
+
+            div#menu {
+                width: 400px;
+                height:50px;
+                float: left;
+                margin-left: 5px;
+                margin-top: 20px;
+                
+            }
+
+            div#menu p{
+                display: inline-block;
+                margin-left: 80px;
+                
+            }
+
+            div#sectionBanner {
+                width: 900px;
+                height: 300px;
+                background-color: skyblue;
+                text-align: center;
+                padding-top: 100px;
+                box-sizing: border-box;
+            }
+
+            div#sectionForm{
+                width: 900px;
+                height: 300px;
+                background-color:rgb(52, 141, 134);
+                text-align: center;
+                padding-top: 100px;
+                box-sizing: border-box;
+                
+            }
+
+          
+           div#sectionAbout {
+               width: 900px;
+               height: 500px;
+               text-align: center;
+               padding-top: 10px;
+               box-sizing: border-box;
+               }
+
+               .flex-container {
+                  width: 900px;
+                  height: 230px;
+                  display: flex;
+                  flex-wrap: nowrap;
+                
+                }
+
+                .flex-container .box {
+                 background-color: #ae99c2;
+                 width: 50%;
+                 margin: 10px;
+                 /*padding-top: 5px;*/
+                 box-sizing: border-box;
+                 text-align:left;
+                 /*line-height: 200px;*/
+                 
+                }
+
+            /* .column{
+                 width: 400;
+                 height: 350;
+                 float: left;
+                 display: flex;
+                 justify-content: center;
+                 padding: 10px;
+                 column-width: 50%;
+                 
+                 
+                 
+             } 
+
+            .left {
+                width :350px;
+                height: 200px;
+                background-color:rgb(31, 89, 100);
+                margin-left: 10px;
+                box-sizing: border-box;   
+                padding: 10px;                                 
+            }
+
+               
+            .right{
+                width :350px;
+                height: 200px;
+                background-color: rgb(44, 69, 116);     
+                margin-right: 20px;   
+                box-sizing: border-box;  
+                padding: 10px;       
+            }
+            .row{
+                margin: 0 -5px;
+            } 
+            .row::after{
+                content: "";
+                display: table;
+                clear: both;
+            } */
+           
+         
+        </style>
+    </head>
+    <body>
+       <div id="container">
+           <div id="header">
+               <h1 id="logo">EduHub</h1>
+             <div id="menu">
+                <p>Home</p>
+                <p>About</p>
+                <p>Contact</p>
+              </div>
+           </div>
+
+              <div id="sectionBanner">
+                <h2>EduHub</h2>
+                <h2>Get Smart!</h2>
+              </div>
+
+              <div id="sectionForm">
+               <h2>Sign up now!</h2>
+              <form> 
+                  <input class="main" type = "text" placeholder="Your Email"> 
+                  <button class="main1" type = "submit">Button </button> 
+               </form> 
+              </div>
+              
+             <div id="sectionAbout">
+                <h2 style="text-align: center;">What We Offer</h3>
+            
+                <div class="flex-container">
+                 <div class="box">
+                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                 </div>
+                    <div class="box">
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+                
+            </div>
+
+             
+
+        </div>
+
+    </body>
+</htm>
